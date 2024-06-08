@@ -1,0 +1,1308 @@
+/* Projects */
+
+/* Auto layout */
+*{
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 0px;
+    gap: 32px 24px;
+
+    position: absolute;
+    width: 1277px;
+    height: 902px;
+    left: 81px;
+    top: 481px;
+}
+
+
+/* Card */
+
+/* Auto layout */
+Card {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 621px;
+height: 435px;
+}
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image */
+
+width: 621px;
+height: 341px;
+
+background: url(image.png), url(viktor-zhulin-ppqMTEs3N4g-unsplash.jpg), url(viktor-zhulin-ppqMTEs3N4g-unsplash.jpg), url(.jpg), #F7F7F7;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Copy */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 621px;
+height: 70px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* CVC */
+
+width: 621px;
+height: 36px;
+
+/* Subheading
+
+Description or small heading
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+/* identical to box height, or 36px */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Description of your first project */
+
+width: 621px;
+height: 30px;
+
+/* Body text
+
+Text for body copy
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+display: flex;
+align-items: center;
+
+color: #828282;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 621px;
+height: 435px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image */
+
+width: 621px;
+height: 341px;
+
+background: url(image.png), url(image.png), url(.jpg), #F7F7F7;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Copy */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 621px;
+height: 70px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Project title */
+
+width: 621px;
+height: 36px;
+
+/* Subheading
+
+Description or small heading
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+/* identical to box height, or 36px */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Description of your second work */
+
+width: 621px;
+height: 30px;
+
+/* Body text
+
+Text for body copy
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+display: flex;
+align-items: center;
+
+color: #828282;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 621px;
+height: 435px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Image */
+
+width: 621px;
+height: 341px;
+
+background: url(Stocksy_comp_3081580.jpg), url(.jpg), #F7F7F7;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Copy */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 621px;
+height: 70px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Project title */
+
+width: 621px;
+height: 36px;
+
+/* Subheading
+
+Description or small heading
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+/* identical to box height, or 36px */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Description of your third creation */
+
+width: 621px;
+height: 30px;
+
+/* Body text
+
+Text for body copy
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+display: flex;
+align-items: center;
+
+color: #828282;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 621px;
+height: 435px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Image */
+
+width: 621px;
+height: 341px;
+
+background: url(image.png), url(.jpg), #F7F7F7;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Copy */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 621px;
+height: 70px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Project title */
+
+width: 621px;
+height: 36px;
+
+/* Subheading
+
+Description or small heading
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+/* identical to box height, or 36px */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Description of your fourth endeavor */
+
+width: 621px;
+height: 30px;
+
+/* Body text
+
+Text for body copy
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+display: flex;
+align-items: center;
+
+color: #828282;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Copy */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 572px;
+height: 154px;
+left: 81px;
+top: 244px;
+
+
+
+/* WELCOM TO MY PORTFOLIO */
+
+width: 497px;
+height: 154px;
+
+/* Title
+
+Largest copy on the page.
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Navigation */
+
+position: absolute;
+height: 164px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+background: #FFFFFF;
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 48px;
+
+position: absolute;
+width: 310px;
+height: 30px;
+right: 80px;
+top: 56px;
+
+
+
+/* Projects */
+
+width: 79px;
+height: 30px;
+
+/* Body text
+
+Text for body copy
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* About */
+
+width: 58px;
+height: 30px;
+
+/* Body text
+
+Text for body copy
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Contact */
+
+width: 77px;
+height: 30px;
+
+/* Body text
+
+Text for body copy
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* JuneYoung-Park */
+
+position: absolute;
+width: 158px;
+height: 30px;
+left: 80px;
+top: 67px;
+
+/* Body text
+
+Text for body copy
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Navigation / Footer */
+
+position: absolute;
+height: 264px;
+left: 0px;
+right: 0px;
+top: 1503px;
+
+background: #FFFFFF;
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 187px;
+height: 168px;
+right: 517px;
+top: 48px;
+
+
+
+/* Topic */
+
+width: 187px;
+height: 24px;
+
+/* Small text
+
+Small text
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Page */
+
+width: 187px;
+height: 24px;
+
+/* Small text
+
+Small text
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+
+color: #454545;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Page */
+
+width: 187px;
+height: 24px;
+
+/* Small text
+
+Small text
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+
+color: #454545;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Page */
+
+width: 187px;
+height: 24px;
+
+/* Small text
+
+Small text
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+
+color: #454545;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 187px;
+height: 168px;
+right: 298px;
+top: 48px;
+
+
+
+/* Topic */
+
+width: 187px;
+height: 24px;
+
+/* Small text
+
+Small text
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Page */
+
+width: 187px;
+height: 24px;
+
+/* Small text
+
+Small text
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+
+color: #454545;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Page */
+
+width: 187px;
+height: 24px;
+
+/* Small text
+
+Small text
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+
+color: #454545;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Page */
+
+width: 187px;
+height: 24px;
+
+/* Small text
+
+Small text
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+
+color: #454545;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 187px;
+height: 168px;
+right: 80px;
+top: 48px;
+
+
+
+/* Topic */
+
+width: 187px;
+height: 24px;
+
+/* Small text
+
+Small text
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Page */
+
+width: 187px;
+height: 24px;
+
+/* Small text
+
+Small text
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+
+color: #454545;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Page */
+
+width: 187px;
+height: 24px;
+
+/* Small text
+
+Small text
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+
+color: #454545;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Page */
+
+width: 187px;
+height: 24px;
+
+/* Small text
+
+Small text
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+
+color: #454545;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Site name */
+
+position: absolute;
+width: 113px;
+height: 36px;
+left: 80px;
+top: 52px;
+
+/* Subheading
+
+Description or small heading
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+/* identical to box height, or 36px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Social Icons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 184px;
+height: 40px;
+left: 80px;
+top: 176px;
+
+
+
+/* Buttons / Icon */
+
+width: 40px;
+height: 40px;
+
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 8px;
+top: 8px;
+
+
+
+/* Icon */
+
+position: absolute;
+width: 20px;
+height: 19.92px;
+left: 2px;
+top: 2.04px;
+
+background: #828282;
+
+
+/* Icons / Social / facebook */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.5%;
+bottom: 8.5%;
+
+background: #828282;
+
+
+/* Buttons / Icon */
+
+width: 40px;
+height: 40px;
+
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 8px;
+top: 8px;
+
+
+
+/* Icon */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 3px;
+top: 3px;
+
+background: #828282;
+
+
+/* Icons / Social / linkedin */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #828282;
+
+
+/* Buttons / Icon */
+
+width: 40px;
+height: 40px;
+
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 8px;
+top: 8px;
+
+
+
+/* Icon */
+
+position: absolute;
+width: 20px;
+height: 14px;
+left: 2px;
+top: 5px;
+
+background: #828282;
+
+
+/* Icons / Social / youtube */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 20.83%;
+bottom: 20.83%;
+
+background: #828282;
+
+
+/* Buttons / Icon */
+
+width: 40px;
+height: 40px;
+
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 8px;
+top: 8px;
+
+
+
+/* Icon */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 2px;
+top: 2px;
+
+background: #828282;
+
+
+/* Icons / Social / instagram */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #828282;
+
+
+/* Divider */
+
+position: absolute;
+width: 1280px;
+height: 0px;
+left: 80px;
+top: 1px;
+
+border: 1px solid #E6E6E6;
