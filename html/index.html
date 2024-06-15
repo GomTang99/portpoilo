@@ -8,40 +8,153 @@
 </head>
 <body>
     <div class="wrap">
-        <!-- header -->
-        <header>
-            <div class="menu_bar">
-            <h1 class="name">JuneYoung Park</h1>
-            <ul>
-                <li class="menu menu1">
-                    <a href="#">Projects</a>
-                </li>
-                <li class="menu menu1">
-                    <a href="#">About</a>
-                </li>
-                <li class="menu menu1">
-                    <a href="#">Contacts</a>
-                </li>
-            </ul> 
+        <section class="home" id="home">
+            <div class="inner">
+                <!-- header -->
+                <header class="top">
+                    <div class="menu_bar">
+                    <h1 class="name">JuneYoung Park</h1>
+                    <ul>
+                        <li class="menu menu1">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="menu menu1">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="menu menu1">
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li class="menu menu1">
+                            <a href="#portfolio">portfolio</a>
+                        </li>
+                    </ul> 
+                    </div>
+                </header>
+                <p class="greeting">welcome to my portfolio :)</p>
+                <p class="line"></p>
+                <p class="greeting1">백엔드 개발자 박준영입니다.</p>
             </div>
-        </header>
+        </section>
 
         <!-- header_end -->
 
-        <!-- main -->
-         <main>
+        <!-- section1 -->
+        <section class="about" id="about">
+            <div class="cnt_inner">
+                <h2>about</h2>
+                <p class="border">*</p>
+                <div class="desc_box"> 
+
+                    <div class="desc lt onScroll inUp active">
+                        <div class="icon">
+                            <p>
+                                <img src="/img/about_icon01.png" alt="icon1">
+                            </p>
+                        </div>
+                        <b class="text">개발을 좋아하는 백엔드 개발자</b>
+                        <br>
+                        좋아하는 일을 위해 정체되어있지 안고
+                        <br>
+                        더 발전하기 위해 항상 노력하고자 합니다.
+                        <br>
+                        백엔드 및 풀스택 개발자입니다.
+                        <br>
+                        'Spring Boot'를 할수 있으며,
+                        <br>
+                        최신 기술을 알기위해 끊임없이 공부중입니다.
+                    </div>
+
+                    <div class="desc md onScroll inUp active">
+                        <div class="icon">
+                            <p>
+                                <img src="/img/about_icon02.png" alt="icon2">
+                            </p>
+                        </div>
+                        <b class="text">박 준영(male)</b>
+                        <br>
+                        SBS아카데미컴퓨터아트학원 수료
+                        <br>
+                    </div>
+
+                    <div class="desc rt onScroll inUp active">
+                        <div class="icon">
+                            <p>
+                                <img src="/img/about_icon03.png" alt="icon3">
+                            </p>
+                        </div>
+                        <ul class="contact">
+                            <li>
+                                <a href="mailto:parkjuneyoung194786@gmail.com">
+                                    <img src="/img/icon_mail.png" alt="mail">
+                                    <span>parkjuneyoung194786@gmail.com</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <b>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- section_about_end -->
+
+        <!-- section_skills -->
+         <section class="on" id="skills">
+            <div class="cnt_inner">
+                <h2 class="skill_title">Skills</h2>
+                <p class="border2">*</p>
+
+                <ul class="skill">
+                    <li class="skill1">
+                        <span class="chart" data-percent="95">
+                            <span class="percent">95</span>    
+                            <canvas height="100" width="100"></canvas>
+                        </span>
+                        <span class="txt">HTML</span>
+                    </li>
+                    <li class="skill2">
+                        <span class="chart" data-percent="90">
+                            <span class="percent">90</span>    
+                            <canvas height="100" width="100"></canvas>
+                        </span>
+                        <span class="txt">CSS</span>
+                    </li>
+                    <li class="skill3">
+                        <span class="chart" data-percent="75">
+                            <span class="percent">75</span>    
+                            <canvas height="100" width="100"></canvas>
+                        </span>
+                        <span class="txt">Java</span>
+                    </li>
+                    <li class="skill14">
+                        <span class="chart" data-percent="95">
+                            <span class="percent">95</span>    
+                            <canvas height="100" width="100"></canvas>
+                        </span>
+                        <span class="txt">DB</span>
+                    </li>
+                </ul>
+
+            </div>
+         </section>
+
+
+        <!-- section3 -->
+        <!-- 
+        <section>
             <div class="introduce">
                 welcome to <br> my portfolio
             </div>
             <div class="project project1">
-                <!-- 프로젝트 -->
+                // 프로젝트 
                 <div class="pj1_1">
                     <img src="/img/logo.png" alt="cvc">
                 </div>
                 <div class="pj1_2"></div>
             </div>
             <div class="description">
-                <!-- 설명 -->
+                // 설명 
                 <div class="des_1"></div>
                 <div class="des_2"></div>
             </div>
@@ -53,15 +166,12 @@
                 <div class="des_1"></div>
                 <div class="des_2"></div>
             </div>
-         </main>
-        <!-- main_end -->
+         </section>
+        -->
+
+        <!-- section3_end -->
 
 
-        <!-- footer -->
-         <footer>
-            주소
-         </footer>
-        <!-- footer_end -->
 
     </div>
 </body>
